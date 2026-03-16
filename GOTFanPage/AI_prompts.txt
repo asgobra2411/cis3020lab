@@ -1,0 +1,54 @@
+AI Prompt Documentation – Lab W09 (CSS and Visual Design)
+
+Prompt 1
+Create an external CSS stylesheet for a fan website themed around Game of Thrones. 
+The layout should include a header, navigation bar, main content area, sidebar, and footer. 
+The design should have a medieval or fantasy style using warm colors such as bronze, 
+parchment, and dark backgrounds. The layout should remain readable and organized.
+
+Result
+The generated CSS helped create a shared stylesheet used across all pages of the site. 
+It included styles for the header, navigation menu, and a content container to keep the 
+layout consistent.
+
+--------------------------------------------------------------------------------------------
+
+Prompt 2
+Provide CSS examples for navigation links that change appearance when a user hovers 
+over them. The navigation should look interactive and visually clear.
+
+Result
+The CSS added hover and transition effects to the navigation links so they change 
+color when the mouse moves over them. This improves usability and visual feedback.
+
+--------------------------------------------------------------------------------------------
+
+Prompt 3
+Show how to create a responsive gallery layout for images using CSS. The images 
+should appear in a grid layout and have hover effects such as zoom or brightness 
+changes.
+
+Result
+The CSS grid layout was used for the fan creations gallery. Image hover effects 
+were applied using transform and transition properties so that images slightly 
+zoom when hovered.
+
+--------------------------------------------------------------------------------------------
+
+Prompt 4
+Explain how to add a full-page background image that does not repeat and remains 
+fixed when scrolling.
+
+Result
+The CSS background property was added to the body element using background-size: cover 
+and background-attachment: fixed so the background image fills the page while the 
+content scrolls above it.
+
+--------------------------------------------------------------------------------------------
+
+Reflection
+
+AI was used as a reference tool to generate ideas for CSS layout and visual effects. 
+The prompts focused on specific requirements such as navigation styling, image effects, 
+and background design. The results were then adjusted and integrated into the website 
+to match the Game of Thrones theme and maintain readability across all pages.

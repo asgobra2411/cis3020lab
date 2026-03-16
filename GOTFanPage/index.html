@@ -2,28 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GOT Fan Page.</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones Fan Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Game of Thrones Fan Page.</h1>
 
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="top5.html">Top 5</a> |
-        <a href="bts.html">Behind the Scenes</a> |
-        <a href="creations.html">Fan Creations</a> |
-        <a href="qa.html">Q&A</a>
-    </nav>
+    <div class="page-wrapper">
 
-    <p style="font-size: 20px;">
-        Welcome to my <strong>Game of Thrones</strong> fan page. 
-        Game of Thrones is a fanatsy television series filled with political intrigue,
-        powerful families, and epic battles. I enjoy this fandom because of its complex
-        characters, unpredictable storylines, and rich word-building.
-    </p>
+        <header>
+            <h1>Game of Thrones Fan Page</h1>
+            <p>Politics, power, dragons, and the world of Westeros</p>
+        </header>
 
-    <img src="images/banner.jpg" alt="Game of Thrones banner" width="700" />
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="top5.html">Top 5</a>
+            <a href="bts.html">Behind the Scenes</a>
+            <a href="creations.html">Fan Creations</a>
+            <a href="qa.html">Q&amp;A</a>
+        </nav>
+
+        <main>
+            <article>
+                <section>
+                    <h2>Welcome to Westeros</h2>
+
+                    <img src="images/banner.jpg" alt="Game of Thrones banner" class="hero-image">
+
+                    <p>
+                        Welcome to my <strong>Game of Thrones</strong> fan page.
+                        Game of Thrones is a fantasy television series filled with political intrigue,
+                        powerful families, and epic battles. I enjoy this fandom because of its complex
+                        characters, unpredictable storylines, and rich world-building.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>About the Fandom</h2>
+                    <p>
+                        One of the most interesting parts of Game of Thrones is how every house,
+                        alliance, and rivalry shapes the story. The series mixes action, strategy,
+                        loyalty, betrayal, and fantasy in a way that keeps viewers invested.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Leave a Comment</h2>
+
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="comments">Comments</label>
+                        <textarea id="comments" name="comments" rows="5"></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </section>
+            </article>
+
+            <aside>
+                <section>
+                    <h2>Featured House</h2>
+                    <p>
+                        House Stark is one of my favorite houses because of its loyalty,
+                        resilience, and strong family bond.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Favorite Quote</h2>
+                    <p><em>"When you play the game of thrones, you win or you die."</em></p>
+                </section>
+
+                <section>
+                    <h2>Why I Like It</h2>
+                    <p>
+                        I especially enjoy the character development, the dramatic conflicts,
+                        and the medieval fantasy setting.
+                    </p>
+                </section>
+            </aside>
+        </main>
+
+        <footer>
+            <p>Astrid Gomez | asgobra2411@gmail.com | Last Edited: March 2026</p>
+            <p>&copy; 2026 Game of Thrones Fan Page</p>
+        </footer>
+
+    </div>
+
 </body>
 </html>
