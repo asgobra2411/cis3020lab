@@ -367,3 +367,29 @@ aside a:hover,
         height: 280px;
     }
 }
+
+/* =========================
+   QUIZ SECTION DESIGN
+========================= */
+.quiz-section{
+    background:#f8f0e1;
+    padding:20px;
+    border:1px solid #b58b52;
+    margin-top:20px;
+}
+
+.quiz-section label{
+    display: block;
+    margin: 6px 0;
+    text-align: left;
+}
+
+.quiz-section input[type="radio"]{
+    margin-right: 8px;
+}
+
+#result{
+    margin-top:15px;
+    font-weight:bold;
+    color:#5b3920;
+}

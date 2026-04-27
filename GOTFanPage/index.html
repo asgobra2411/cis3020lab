@@ -63,6 +63,27 @@
                         <button type="submit">Submit</button>
                     </form>
                 </section>
+
+                <section class="quiz-section">
+                    <h2>Which House Do You Belong To?</h2>
+
+                    <p>1. What do you value most?</p>
+                    <label><input type="radio" name="q1" value="stark"> Loyalty</label>
+                    <label><input type="radio" name="q1" value="lannister"> Power</label>
+
+                    <p>2. How do you make decisions?</p>
+                    <label><input type="radio" name="q2" value="stark"> Honor</label>
+                    <label><input type="radio" name="q2" value="lannister"> Strategy</label>
+
+                    <p>3. What motivates you?</p>
+                    <label><input type="radio" name="q3" value="targaryen"> Destiny</label>
+                    <label><input type="radio" name="q3" value="baratheon"> Strength</label>
+
+                    <br><br>
+                    <button onclick="getResult()">See My House</button>
+
+                    <p id="result"></p>
+                </section>
             </article>
 
             <aside>
@@ -96,5 +117,6 @@
 
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>

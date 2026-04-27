@@ -52,3 +52,48 @@ AI was used as a reference tool to generate ideas for CSS layout and visual effe
 The prompts focused on specific requirements such as navigation styling, image effects, 
 and background design. The results were then adjusted and integrated into the website 
 to match the Game of Thrones theme and maintain readability across all pages.
+
+--------------------------------------------------------------------------------------------------
+AI Prompt Documentation - Lab W15 (JavaScript Interactivity)
+
+Prompt 1
+
+Create a simple interactive JavaScript quiz that determines a result based on user selections. 
+The quiz should collect answers from multiple questions and display a result dynamically on 
+the page without reloading.
+
+Result
+
+The generated JavaScript provided a structure to collect user input using radio buttons and 
+process the selections. The script counts the answers and determines a final result based on 
+the highest score. This was used to create a “Which Game of Thrones House Do You Belong To?” quiz.
+
+----------------------------------------------------------------------------------------------------
+Prompt 2
+
+Show how to use JavaScript to update text content on a webpage when a user clicks a button.
+
+Result
+
+The JavaScript used getElementById and textContent to dynamically update the result section 
+after the user clicks the button. This allows the page to display the house result without 
+refreshing.
+
+----------------------------------------------------------------------------------------------------
+Prompt 3
+
+Explain how to validate that all questions in a quiz are answered before showing a result.
+
+Result
+
+A condition was added to check if all required questions were answered before processing 
+the result. If not, a message is displayed asking the user to complete all selections. 
+This improves user experience and prevents incomplete results.
+
+-----------------------------------------------------------------------------------------------------
+Reflection
+
+AI was used to guide the structure of the JavaScript quiz and provide examples of 
+handling user input and updating the page dynamically. The code was reviewed and adjusted
+to match the design and theme of the Game of Thrones fan site. The final implementation 
+focuses on interactivity and improving user engagement.
